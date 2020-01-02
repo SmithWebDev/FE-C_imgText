@@ -1,9 +1,32 @@
 @import url("https://fonts.googleapis.com/css?family=Gelasio:400,500,600,700&display=swap");
-body {
+* {
   margin: 0;
   padding: 0;
-  text-transform: uppercase;
+}
+
+body {
   font-family: "Gelasio", serif;
+  background: #000000;
+}
+
+.container {
+  height: 100vh;
+}
+
+h1 {
+  font-size: 15em;
+  text-transform: uppercase;
+  font-weight: 700;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url("https://i.pinimg.com/originals/3e/f6/2e/3ef62ebcb89c83776a2592b4e3624136.jpg");
+  background-size: cover;
+  background-position: 50% 48%;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
 }
 
 /*# sourceMappingURL=style.css.map */
